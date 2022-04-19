@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    font-family: "Lato";
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(img/los.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: azure;
+}
+h1{
+    font-size: 100px;
+    font-weight: 100;
+}
+form{
+    text-align: center;
+}
+input{
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+textarea{
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.vloz{
+    color: white;
+    background: black;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+table{
+    margin: 50px auto;  
+}
+@media (max-width: 575.98px) {
+    .footer{
+        display: none;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 0;
+    }
+}
